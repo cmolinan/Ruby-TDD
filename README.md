@@ -1,75 +1,46 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+## TDD Project
 
-# Project Name
+### DESCRIPTION
+In this project we have implemented a class with some methods, but did it by doing test-driven development (TDD), that is,the idea is to write tests first and then the code. 
 
-> Description the project.
+### PROJECT DETAILS
+* Creation of a class called Solver.
 
+* Creation of a method called factorial that takes one argument, an integer N, and returns the factorial for that number. The factorial is the multiplication of all integers from 1 to N and has the special case that the factorial of 0 is 1. This method only accepts 0 and positive integers, so if a negative integer is given it should raise an exception.
 
-## Built With
+* Creation of a method called reverse that takes one argument, a string word, and returns word reversed (e.g. if word is "hello" it returns "olleh").
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
+* Creation of a method called fizzbuzz that takes one argument, an integer N, and returns a string. The returned string is constructed following these rules:
+  - When N is divisible by 3, return "fizz".
+  - When N is divisible by 5, return "buzz".
+  - When N is divisible by 3 and 5, return "fizzbuzz".
+  - Any other case, return N as a string (e.g. say N is 7 then return "7").
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get a local copy up and running follow these simple steps.
+git clone https://github.com/cmolinan/Ruby-TDD in your terminal
 
+<!-- Then, get inside the src directory and run the main.rb program, like this
 
-To get a local copy up and running follow these simple example steps.
+Step-1 ->  cd src
 
-### Prerequisites
+Step-2 ->  ruby main.rb -->
 
-### Setup
+## Author
 
-### Install
+| 👤 Name | Github | Twitter | LinkedIn |
+|------|--------|---------|----------|
+|Carlos Molina|[@cmolinan](https://github.com/cmolinan)|[]()|[Carlos Molina](https://www.linkedin.com/in/carlosmolinan/)|
+|Habeeb Efiamotu Musa Owolewa|[@efiamotu-1](https://github.com/efiamotu-1)|[@EFYAMOTU](https://twitter.com/EFYAMOTU)|[Habeeb Musa](https://www.linkedin.com/in/Musa-habeeb/)|
 
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
+## �� Contributing
 Contributions, issues, and feature requests are welcome!
-
+Feel free to check the issues page.
 Feel free to check the [issues page](../../issues/).
-
+​
 ## Show your support
-
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+## Acknowledgments 
+This webApp responds to a request from Microverse, which is based on the original idea of Nelson Sakwa, according to the Creative Commons License
+## �� License
+This project is [MIT](./MIT.md) licensed.
